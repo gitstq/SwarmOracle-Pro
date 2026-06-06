@@ -1,4 +1,4 @@
-# 🐝 SwarmOracle
+# 🐝 SwarmOracle-Pro
 
 > **Lightweight Swarm Intelligence Prediction Engine** — Zero Dependencies, 4 Algorithms, TUI Dashboard, Multi-Format Export
 
@@ -6,8 +6,8 @@
 
 ---
 
-<a href="https://github.com/gitstq/SwarmOracle/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-blue.svg" alt="Release"></a>
-<a href="https://github.com/gitstq/SwarmOracle/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+<a href="https://github.com/gitstq/SwarmOracle-Pro/releases"><img src="https://img.shields.io/badge/Release-v1.0.0-blue.svg" alt="Release"></a>
+<a href="https://github.com/gitstq/SwarmOracle-Pro/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
 <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/Python-3.7+-yellow.svg" alt="Python"></a>
 <img src="https://img.shields.io/badge/Dependencies-Zero-success.svg" alt="Zero Dependencies">
 
@@ -48,7 +48,7 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/gitstq/SwarmOracle.git
+git clone https://github.com/gitstq/SwarmOracle-Pro.git
 cd SwarmOracle
 
 # Run PSO on Sphere function
