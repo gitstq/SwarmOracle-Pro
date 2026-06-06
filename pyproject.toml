@@ -1,0 +1,36 @@
+# SwarmOracle - Lightweight Swarm Intelligence Prediction Engine
+# Zero-dependency Python library for swarm intelligence optimization
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "swarmoracle"
+version = "1.0.0"
+description = "Lightweight Swarm Intelligence Prediction Engine - Zero Dependencies"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.7"
+keywords = ["swarm-intelligence", "optimization", "pso", "aco", "ga", "de", "prediction"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+[project.scripts]
+swarmoracle = "swarmoracle:main"
+
+[tool.setuptools.packages.find]
+include = ["src*"]
